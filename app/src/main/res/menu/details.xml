@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.keith.idribbble.ui.CommentsActivity" >
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+</menu>

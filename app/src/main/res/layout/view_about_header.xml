@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dribbble_background">
+
+    <ImageView
+        android:id="@+id/dribbble_location_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dribbble_office" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/dribbble_location_image"
+        android:orientation="vertical"
+        android:paddingRight="4dp"
+        android:paddingLeft="6dp">
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/dribbble_llc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dribbble_graphite"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:text="@string/dribbble_location_title" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/dribbble_location_part1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dribbble_gray"
+            android:layout_below="@id/dribbble_llc"
+            android:textSize="11sp"
+            android:text="@string/dribbble_location_part1" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/dribbble_location_part2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dribbble_gray"
+            android:layout_below="@id/dribbble_location_part1"
+            android:textSize="11sp"
+            android:text="@string/dribbble_location_part2" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/dribbble_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dribbble_pink"
+            android:layout_below="@id/dribbble_location_part2"
+            android:layout_marginTop="32dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="@string/about_dribbble" />
+    </RelativeLayout>
+
+</RelativeLayout>

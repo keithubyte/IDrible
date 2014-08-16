@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dribbble_background"
+    android:padding="12dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView xmlns:civ="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/comment_avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/default_avatar"
+        civ:border_color="#eeeeee"
+        civ:border_width="2dp" />
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/comment_avatar"
+        android:layout_marginLeft="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/comment_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_comment_author"
+            android:textSize="16sp"
+            android:textColor="@color/dribbble_graphite"
+            android:textStyle="bold" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/dribbble_gray"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_dribbble" />
+    </LinearLayout>
+
+
+</RelativeLayout>

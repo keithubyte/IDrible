@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnyTextView">
+        <attr name="typeface" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularLoadingView">
+        <attr name="back_color" format="color" />
+        <attr name="fore_color" format="color" />
+        <attr name="loading_radius" format="dimension" />
+        <attr name="circular_duration" format="integer" />
+        <attr name="loading_pivotX" format="float" />
+        <attr name="loading_pivotY" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CirclesLoadingView">
+        <attr name="circle_radius" format="dimension" />
+        <attr name="circle_spacing" format="dimension" />
+        <attr name="circle_duration" format="integer" />
+        <attr name="circle_color" format="color" />
+        <attr name="circle_delay" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ShotListView">
+        <attr name="scrollBarPanel" format="reference" />
+        <attr name="scrollBarPanelInAnimation" format="reference" />
+        <attr name="scrollBarPanelOutAnimation" format="reference" />
+    </declare-styleable>
+</resources>

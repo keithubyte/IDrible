@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minWidth="200dp"
+    android:padding="8dp"
+    android:background="@color/dribbble_graphite"
+    tools:context=".ui.DetailHidenFragment">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        xmlns:civ="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/detail_avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/default_avatar"
+        civ:border="true"
+        civ:border_width="2dp"
+        civ:border_color="@color/dribbble_blog" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/detail_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/detail_like"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="@string/zero"
+            android:drawableLeft="@drawable/ic_like"
+            android:textColor="@color/dribbble_blog"
+            android:drawablePadding="10dp"
+            android:textSize="12sp"
+            android:paddingLeft="1dp"
+            android:gravity="center_vertical" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="@string/zero"
+            android:drawableLeft="@drawable/ic_view"
+            android:textColor="@color/dribbble_blog"
+            android:drawablePadding="8dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical" />
+
+        <com.keith.idribbble.view.AnyTextView
+            style="@style/DribbbleFont"
+            android:id="@+id/detail_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:text="@string/zero"
+            android:drawableLeft="@drawable/ic_comment"
+            android:textColor="@color/dribbble_blog"
+            android:drawablePadding="10dp"
+            android:textSize="12sp"
+            android:paddingLeft="1dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <com.keith.idribbble.view.AnyTextView
+        style="@style/DribbbleFont"
+        android:id="@+id/detail_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_name"
+        android:layout_below="@id/detail_avatar"
+        android:textColor="@color/dribbble_blog"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <com.keith.idribbble.view.AnyTextView
+        style="@style/DribbbleFont"
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_player"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/dribbble_pink"
+        android:text="@string/shot_title" />
+
+</RelativeLayout>

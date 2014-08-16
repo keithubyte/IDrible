@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.keith.idribbble.view.AnyTextView
+        style="@style/DribbbleFont"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dribbble_pink"
+        android:text="@string/network_failed"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <com.keith.idribbble.view.AnyTextView
+        style="@style/DribbbleFont"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dribbble_light_pink"
+        android:text="@string/network_failed_hint"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="normal"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="member_names">
+        <item>Rich Thornett</item>
+        <item>Dan Cederholm</item>
+        <item>Tristan Dunn</item>
+        <item>Patrick Byrne</item>
+        <item>Susanna Baird</item>
+    </string-array>
+
+    <string-array name="member_positions">
+        <item>CO-FOUNDER</item>
+        <item>CO-FOUNDER</item>
+        <item>DEVELOPER</item>
+        <item>DEVELOPER</item>
+        <item>WRITER</item>
+    </string-array>
+
+    <string-array name="member_descs">
+        <item>Rich wanted to play pro basketball when he grew up, but found himself trapped in the body of a software developer. So he did the next best thing and co-created Dribbble, where he leads software development and product design.\n\nHe lives in Salem, Massachusetts with his wife and two kids. Occasionally, he dunks.</item>
+        <item>Dan is a designer, author, speaker, and dad living in Salem, Massachusetts. He is the Co-Founder and Creative Director of Dribbble, and the Founder and Principal of SimpleBits, a tiny design studio.\n\nDan previously co-founded the wine community site, Cork\'d and has worked with clients such as Google, MTV, ESPN, Fast Company, YouTube, Microsoft, and others. He embraces simple, flexible, adaptable design using web standards through his interface work, writing, and speaking. In early 2012 he received a TechFellow Award for Product Design and Marketing.\n\nDan is the author of four best-selling books: CSS3 For Web Designers (A Book Apart), Bulletproof Web Design 3rd Edition (New Riders), Handcrafted CSS: More Bulletproof Web Design with Ethan Marcotte (New Riders), and Web Standards Solutions (Apress/Friends of ED). And he\'s an aspiring clawhammer banjoist.</item>
+        <item>Tristan is a developer and arguably a tolerable designer. He is from and lives in Louisiana, yet enjoys cold weather more than you might expect.\n\nHe\'ll be helping make your experience on Dribbble even more enjoyable, and giving Rich a bit more time to dunk.</item>
+        <item>Patrick has worked in many areas of web development throughout his career, but has been focusing recently on keeping the servers humming along and building tools to support that. He cares about the craft of creating software and how we can improve people\'s lives in small ways with accessible, easy-to-use tools.\n\nHailing from the Twin Cities with his lovely wife, Patrick is originally from Iowa. He likes to cook, and he mainly uses Macintosh computers, because he cares about the quality of his tools.</item>
+        <item>Susanna writes and edits from Salem, Mass. Her work has appeared in a variety of publications including Boston Magazine, the Boston Globe, Publishers Weekly, and at AOL News. She lives with her punster husband, two swell kids, three anti-social snails, and a well-mannered cat. When not tending to the menagerie, she consumes words in the form of novels, comics, and narratively-inclined nonfiction.</item>
+    </string-array>
+
+</resources>

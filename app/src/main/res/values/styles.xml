@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:actionBarStyle">@style/DribbbleActionBar</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_activated_background
+        </item>
+    </style>
+
+    <style name="DribbbleActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/dribbble_graphite</item>
+        <item name="android:logo">@null</item>
+        <item name="android:titleTextStyle">@style/DribbbleActionBarTextStyle</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+    </style>
+
+    <style name="DribbbleActionBarTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/dribbble_pink</item>
+    </style>
+
+    <style name="DribbbleFont">
+        <item name="typeface">AleoRegular.ttf</item>
+    </style>
+
+</resources>
